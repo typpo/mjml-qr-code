@@ -1,6 +1,6 @@
 {
   "name": "mjml-qr-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Embed QR codes in your emails",
   "scripts": {
     "start": "gulp watch",
