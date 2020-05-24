@@ -1,4 +1,5 @@
 # mjml-qr-code
+[![Build Status](https://travis-ci.com/typpo/mjml-qr-code.svg?branch=master)](https://travis-ci.com/typpo/mjml-qr-code)
 
 A component for adding QR codes to your email using an open-source [QuickChart](https://quickchart.io) provider.
 
