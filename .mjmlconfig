@@ -1,0 +1,8 @@
+{
+  "packages": [
+    "./lib/MjBasicComponent.js",
+    "./lib/MjImageText.js",
+    "./lib/MjLayout.js",
+    "./lib/MjQrCode.js"
+  ]
+}

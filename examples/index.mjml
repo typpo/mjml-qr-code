@@ -1,0 +1,14 @@
+<mjml>
+  <mj-body>
+    <mj-section>
+      <mj-text align="center">
+        Use the QR code below as your event ticket.
+      </mj-text>
+      <mj-section>
+        <mj-column>
+          <mj-qr-code align="center" value="hello world" width="200" color="ff0000" href="https://google.com" align="center"></mj-qr-code>
+        </mj-column>
+      </mj-section>
+    </mj-section>
+  </mj-body>
+</mjml>
