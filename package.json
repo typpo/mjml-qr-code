@@ -11,6 +11,10 @@
   },
   "author": "Ian Webster (quickchart.io)",
   "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/typpo/mjml-qr-code.git"
+  },
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
