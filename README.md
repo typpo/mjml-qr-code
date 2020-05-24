@@ -4,6 +4,8 @@ A component for adding QR codes to your email using an open-source [QuickChart](
 
 ## Usage
 
+This mjml...
+
 ```html
 <mjml>
   <mj-body>
@@ -15,6 +17,12 @@ A component for adding QR codes to your email using an open-source [QuickChart](
   </mj-body>
 </mjml>
 ```
+
+Will show this QR code:
+
+![QR code](https://quickchart.io/qr?text=hello%20world)
+
+Customize the color, size, positioning, and other QR parameters using the attributes below.
 
 ## Setup
 
