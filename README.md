@@ -38,7 +38,7 @@ Then add the package to your `.mjmlconfig`:
 ```
 {
   "packages": [
-    "mjml-qr-code/lib/index.js"
+    "mjml-qr-code/lib/MjQrCode.js"
   ]
 }
 ```
