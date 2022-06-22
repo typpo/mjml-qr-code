@@ -3,7 +3,7 @@
     "eslint-config-airbnb-base",
     "eslint-config-airbnb-base/rules/strict"
   ],
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "rules": {
 
     "padded-blocks": 0,

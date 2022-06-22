@@ -1,7 +1,8 @@
 {
   "name": "mjml-qr-code",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Embed QR codes in your emails",
+  "license": "MIT",
   "scripts": {
     "start": "gulp watch",
     "build": "gulp build",
@@ -10,28 +11,32 @@
     "test": "jest"
   },
   "author": "Ian Webster (quickchart.io)",
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/typpo/mjml-qr-code.git"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.6",
-    "@babel/plugin-proposal-class-properties": "^7.8.3",
-    "@babel/preset-env": "^7.9.6",
-    "@babel/register": "^7.9.0",
-    "eslint": "^4.18.2",
-    "eslint-config-airbnb": "^10.0.0",
-    "eslint-plugin-import": "^1.13.0",
-    "eslint-plugin-jsx-a11y": "^2.1.0",
-    "fancy-log": "^1.3.2",
+    "@babel/core": "^7.18.5",
+    "@babel/eslint-parser": "^7.18.2",
+    "@babel/plugin-proposal-class-properties": "^7.17.12",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/register": "^7.17.7",
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "fancy-log": "^1.3.3",
+    "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
-    "gulp-watch": "^5.0.0",
+    "gulp-watch": "^5.0.1",
     "jest": "^26.0.1",
     "prettier": "^2.0.5"
   },
   "dependencies": {
-    "gulp": "^4.0.2",
-    "mjml": "^4.0.0"
+    "mjml": "^4.12.0",
+    "mjml-core": "^4.12.0",
+    "mjml-validator": "^4.12.0"
   }
 }
