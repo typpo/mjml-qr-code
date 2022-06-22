@@ -84,11 +84,9 @@ export default class MjQrCode extends BodyComponent {
 
   renderImage() {
     const attributes = {}
-    for (const key in MjQrCode.allowedAttributes) {
-      if (MjQrCode.allowedAttributes.hasOwnProperty(key)) {
-        attributes[key] = this.getAttribute(key)
-      }
-    }
+    Object.keys(MjQrCode.allowedAttributes).forEach((key) => {
+      attributes[key] = this.getAttribute(key)
+    })
     attributes.src = this.getUrl()
     return `
       <mj-image
