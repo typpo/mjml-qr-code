@@ -79,7 +79,7 @@ export default class MjQrCode extends BodyComponent {
     const margin = this.getAttribute('qr-margin')
     return `${this.getAttribute('protocol')}://${this.getAttribute(
       'host',
-    )}/qr?text=${content}&size=${width}&dark=${foregroundColor}&light=${backgroundColor}&ecLevel=${ecLevel}&margin=${margin}`
+    )}/qr?text=${content}&size=${width}&dark=${foregroundColor}&light=${backgroundColor}&ecLevel=${ecLevel}&margin=${margin}&ref=mjml`
   }
 
   renderImage() {
