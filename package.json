@@ -1,6 +1,6 @@
 {
   "name": "mjml-qr-code",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Embed QR codes in your emails",
   "license": "MIT",
   "scripts": {
