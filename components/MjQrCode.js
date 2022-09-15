@@ -17,7 +17,7 @@ export default class MjQrCode extends BodyComponent {
     value: 'string',
     color: 'color',
     'background-color': 'color',
-    'qr-margin': 'unit(blocks)',
+    'qr-margin': 'integer',
     'error-correction-level': 'string',
     width: 'unit(px)',
     host: 'string',
